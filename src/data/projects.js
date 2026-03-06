@@ -9,8 +9,8 @@ const projects = [
   github: "https://github.com/akshay-raj-m007/",
 
   images: [
-    "/images/projects/dqn/image_output_1.jpg",
-    "/images/projects/dqn/robot.png"
+    `${import.meta.env.BASE_URL}/images/projects/dqn/image_output_1.jpg`,
+    `${import.meta.env.BASE_URL}/images/projects/dqn/robot.png`
   ],
 
   details:
@@ -33,10 +33,10 @@ const projects = [
   github: "https://github.com/akshay-raj-m007/AI_for_sustainability",
 
   images: [
-    "images/projects/ai-sustainability/img_1.png",
-    "images/projects/ai-sustainability/sus1.png",
-    "images/projects/ai-sustainability/sus2.png",
-    "images/projects/ai-sustainability/sus3.png"
+    `${import.meta.env.BASE_URL}images/projects/ai-sustainability/img_1.png`,
+    `${import.meta.env.BASE_URL}images/projects/ai-sustainability/sus1.png`,
+    `${import.meta.env.BASE_URL}images/projects/ai-sustainability/sus2.png`,
+    `${import.meta.env.BASE_URL}images/projects/ai-sustainability/sus3.png`
   ],
 
   details:

@@ -4,7 +4,7 @@ export default function LeftPanel({ activeSection }) {
     <div className="left-panel">
 
       <img
-        src="/images/profile.jpeg"
+        src={`${import.meta.env.BASE_URL}/images/profile.jpeg`}
         alt="profile"
         className="profile-img"
       />
@@ -14,6 +14,7 @@ export default function LeftPanel({ activeSection }) {
       <p className="tagline">
         M.Tech student Interested in machine learning, deep learning, and computer vision, with a deep curiosity for the mathematics that drives them.
       </p>
+
 
       <nav className="side-nav">
 

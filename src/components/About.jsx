@@ -16,10 +16,21 @@ export default function About() {
       <p>
        During my studies, I have gained hands-on experience implementing machine learning models using Python and PyTorch, including projects in computer vision and applied machine learning. My interest in mathematics and statistics plays an important role in how I approach these problems, often guiding how I analyze models and interpret their behavior.
       </p>
+
       
       <p>
         Prior to my graduate program, I worked as a Test Engineer in the software industry. My role involved extensive validation of web and mobile applications, including automated API testing and performance analysis. That experience gave me a strong appreciation for system reliability and motivated my transition toward the data science and AI domain.
       </p>
+
+      <div className="achievement-box">
+        <p className="achievement-title">
+          GATE Data Science and Artificial Intelligence(DA)
+        </p>
+
+        <p className="achievement-rank">
+          AIR 535 (2025)
+        </p>
+      </div>
 
       <a href="/resume.pdf" target="_blank">
         View Resume

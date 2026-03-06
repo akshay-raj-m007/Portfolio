@@ -122,6 +122,15 @@ public/images/projects/
 
 Then redeploy the website.
 
+To redeploy,
+git add .
+git commit -m "update portfolio"
+git push
+
+and then
+
+npm run build
+npm run deploy
 ## Author
 
 Akshay Raj M  
