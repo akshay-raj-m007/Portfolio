@@ -21,6 +21,10 @@ export default function About() {
       <p>
         Prior to my graduate program, I worked as a Test Engineer in the software industry. My role involved extensive validation of web and mobile applications, including automated API testing and performance analysis. That experience gave me a strong appreciation for system reliability and motivated my transition toward the data science and AI domain.
       </p>
+      
+      <a href="/resume.pdf" target="_blank">
+        View Resume
+      </a>
 
       <div className="achievement-box">
         <p className="achievement-title">
@@ -32,9 +36,7 @@ export default function About() {
         </p>
       </div>
 
-      <a href="/resume.pdf" target="_blank">
-        View Resume
-      </a>
+      
 
     </section>
   )
