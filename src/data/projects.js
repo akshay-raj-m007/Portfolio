@@ -49,6 +49,29 @@ const projects = [
     "Computer Vision",
     "Remote Sensing"
   ]
+},
+{
+  title : "Human Detection and Tracking in Video",
+
+  description : "A computer vision pipeline for detecting and tracking people in video streams.",
+
+  github : "https://github.com/akshay-raj-m007/Object-Detection-YOLO",
+
+  images: [
+    `${import.meta.env.BASE_URL}images/projects/yolo-video/im1.png`,
+    `${import.meta.env.BASE_URL}images/projects/yolo-video/a1.png`,
+    `${import.meta.env.BASE_URL}images/projects/yolo-video/im2.png`,
+    `${import.meta.env.BASE_URL}images/projects/yolo-video/a2.png`
+  ],
+
+  details: "Computer vision pipeline that detects and tracks people in video using YOLOv8 and ByteTrack, generating annotated output with bounding boxes, tracking IDs, confidence scores, and real-time person counts",
+
+  tags: [
+    "OpenCV",
+    "Computer Vision",
+    "YOLO",
+    "Object Detection"
+  ]
 }
 
 ]
