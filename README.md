@@ -123,14 +123,18 @@ public/images/projects/
 Then redeploy the website.
 
 To redeploy,
+```bash
 git add .
 git commit -m "update portfolio"
 git push
+```
 
 and then
 
+```bash
 npm run build
 npm run deploy
+```
 ## Author
 
 Akshay Raj M  

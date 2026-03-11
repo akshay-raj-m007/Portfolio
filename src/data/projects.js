@@ -72,6 +72,27 @@ const projects = [
     "YOLO",
     "Object Detection"
   ]
+},
+{
+  title: "Image Denoising using NAFNet",
+
+  description: "Implemented and fine-tuned the NAFNet deep learning architecture for image denoising, focusing on removing noise from real-world images using a UNet-based activation-free network.",
+
+  github: "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136670017.pdf",
+
+  images: [
+    `${import.meta.env.BASE_URL}images/projects/nafnet/bl1.png`,
+    `${import.meta.env.BASE_URL}images/projects/nafnet/og1.png`,
+    `${import.meta.env.BASE_URL}images/projects/nafnet/bl2.png`,
+    `${import.meta.env.BASE_URL}images/projects/nafnet/og2.png`
+  ],
+  details: "Fine tuned an Image denoising model NAFNet, which is capable to introduce non-linearity in system without activation functions. Fine tuned the model with noisy dataset and validated the output metrics.",
+  tags: [
+    "Computer Vision",
+    "Image Denoising",
+    "Fine tuning",
+    "Deep Learning"
+  ]
 }
 
 ]
