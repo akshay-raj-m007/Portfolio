@@ -22,7 +22,7 @@ export default function About() {
         Prior to my graduate program, I worked as a Test Engineer in the software industry. My role involved extensive validation of web and mobile applications, including automated API testing and performance analysis. That experience gave me a strong appreciation for system reliability and motivated my transition toward the data science and AI domain.
       </p>
       
-      <a href="/resume.pdf" target="_blank">
+      <a href={`${import.meta.env.BASE_URL}resume.pdf`} target="_blank">
         View Resume
       </a>
 
